@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE centro_medico [
+    <!ELEMENT centro_medico (nombre, consulta+, fecha)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    
+    <!ELEMENT consulta (compania_privada?, hora_asignada, hora_llamada, tiempo_espera)>
+    
+    <!ATTLIST consulta 
+        codigo ID #REQUIRED
+        estado (C | O | D) "O">
+
+    <!ELEMENT compania_privada EMPTY>
+    <!ATTLIST compania_privada nombre CDATA #REQUIRED>
+
+    <!ELEMENT hora_asignada (#PCDATA)>
+    <!ELEMENT hora_llamada (#PCDATA)>
+    <!ELEMENT tiempo_espera (#PCDATA)>
+]>
+
+<centro_medico>
+    <nombre>CENTRO MÉDICO SALUS INFIRMORUM (CMSI)</nombre>
+
+    <consulta codigo="ID_05EDC" estado="O">
+        <hora_asignada>9:05</hora_asignada>
+        <hora_llamada>9:07</hora_llamada>
+        <tiempo_espera>2 m</tiempo_espera>
+    </consulta>
+
+    <consulta codigo="ID_07WEV" estado="D">
+        <compania_privada nombre="NHS" />
+        <hora_asignada>10:00</hora_asignada>
+        <hora_llamada>10:30</hora_llamada>
+        <tiempo_espera>30 m</tiempo_espera>
+    </consulta>
+
+    <fecha>23-03-2024</fecha>
+</centro_medico>
