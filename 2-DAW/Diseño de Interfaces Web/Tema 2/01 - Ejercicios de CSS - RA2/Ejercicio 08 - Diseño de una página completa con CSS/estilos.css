@@ -1,0 +1,73 @@
+   body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eaf3fa;
+    color: #34495e;
+    line-height: 1.6;
+   }
+
+   header {
+    background-color: #24476B;
+    color: white;
+    padding: 20px;
+   }
+
+   nav {
+    background-color: #3979B9;
+    padding: 15px;
+    text-align: center;
+   }
+
+   nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+   }
+
+   main {
+    margin: 30px;
+    padding: 20px;
+   }
+
+   h1 {
+    text-align: center;
+    font-size: 30px;
+   }
+
+   h2 {
+    color: #24476B;
+   }
+
+   .tarjeta {
+    background-color: white;
+    color: #34495e;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #C5D9E8 ;
+    border-radius: 10px;
+   }
+
+   .boton {
+    background-color: #3979b9;
+    color: white;
+    padding: 10px;
+    border: 1px solid #24476B;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+   }
+
+   .aviso {
+    background-color: #D5E9F7;
+    color: #24476B;
+    border: 1px solid #3979b9;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+   }
+
+   footer {
+    background-color: #24476B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   }

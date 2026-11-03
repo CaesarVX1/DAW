@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prioridad CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+
+        .aviso {
+            color: green;
+        }
+
+        #especial {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prueba de estilos</h1>
+
+    <p>Primer párrafo.</p>
+    <p class="aviso">Segundo párrafo.</p>
+    <p id="especial">Tercer párrafo.</p>
+    <p class="aviso" id="especial"
+       style="color: red;">
+        Cuarto párrafo.
+    </p>
+</body>
+</html>
