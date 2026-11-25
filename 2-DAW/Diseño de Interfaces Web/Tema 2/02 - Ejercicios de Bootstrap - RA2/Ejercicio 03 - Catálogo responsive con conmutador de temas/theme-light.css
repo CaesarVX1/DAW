@@ -1,1 +1,5 @@
-/* TODO: desarrolla aquí los estilos pedidos. */
+@import url("theme-dark.css");
+
+body {
+  background-color: #f2f2f2;
+}

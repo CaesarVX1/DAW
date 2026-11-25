@@ -1,1 +1,14 @@
-/* TODO: estilos propios del catálogo. */
+.foto-producto {
+  display: block;
+  width: 120px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#ocultar-agotados:checked ~ .row .agotado {
+  display: none;
+}
+
+#aviso {
+  margin: auto;
+}

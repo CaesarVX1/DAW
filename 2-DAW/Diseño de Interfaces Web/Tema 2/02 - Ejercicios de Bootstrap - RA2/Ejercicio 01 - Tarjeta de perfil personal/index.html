@@ -5,32 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tarjeta de perfil personal</title>
   <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
   <header>
-    <h1 style="font-family: 'Courier New', Courier, monospace;">IES MIGUEL HERNANDEZ</h1>
+    <h1>IES MIGUEL HERNÁNDEZ</h1>
     <nav>
-      <a href="#" style="text-decoration: none;">Apartado 1</a>
-      <a href="#" style="text-decoration: none;">Apartado 2</a>
+      <a href="#horarios">Horarios</a>
+      <a href="#informacion">Información</a>
     </nav>
   </header>
-  <article>
-    <section style="color: brown;">
-      <h2>Horarios</h2>
-      <p>ESO  y Bachillerato: 8:30 - 14:30</p>
-      <p>Ciclos Formativos Matutinos: 8:30 - 14:30</p>
-      <p>Ciclos Formativos Vespertinos: 15:00 - 21:00</p>
-    </section>
-  </article>
-  <article>
-    <section>
-    <h2>Información</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi ducimus nisi nesciunt dolores harum odit suscipit omnis ipsum aliquid odio nobis fugiat atque eveniet officia, magnam optio earum voluptatibus ab?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ad blanditiis est beatae recusandae, at molestias vero vitae, tempore eum, rerum voluptatum. Impedit, maiores. Eligendi sit alias cumque earum aliquam!</p>
-  </section>
-  </article>
-  <h3>Programación Didactica Profesores</h3>
-  <button style="padding: 10px; margin: 15px;">IR A LA PROGRAMACION</button>
+  <main>
+    <div>
+      <article id="horarios" class="tarjeta-perfil">
+        <h2>Horarios</h2>
+        <p>ESO y Bachillerato: 8:30 - 14:30</p>
+        <p>Ciclos Formativos Matutinos: 8:30 - 14:30</p>
+        <p>Ciclos Formativos Vespertinos: 15:00 - 21:00</p>
+      </article>
+      <article id="informacion" class="tarjeta-perfil">
+        <h2>Información</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ducimus nisi nesciunt dolores harum odit suscipit omnis ipsum.</p>
+        <h3>Programación didáctica</h3>
+        <button type="button" class="btn-contacto">Consultar programación</button>
+      </article>
+    </div>
+  </main>
 </body>
 </html>

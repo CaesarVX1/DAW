@@ -1,0 +1,15 @@
+@mixin box-shadow($x: 0, $y: 0, $blur: 0, $spread: 0, $color: black) {
+  box-shadow: $x $y $blur $spread $color;
+}
+
+.card {
+  @include box-shadow(2px, 2px, 5px, 1px, #999);
+}
+
+.button {
+  @include box-shadow(0, 0, 3px, 0, #333);
+}
+
+.alert {
+  @include box-shadow;
+}

@@ -1,1 +1,10 @@
-/* TODO: desarrolla aquí los estilos pedidos. */
+/* Aplica el tema oscuro al marcar la casilla. */
+body:has(#tema-oscuro:checked) {
+  background-color: #252525;
+  color: white;
+}
+
+body:has(#tema-oscuro:checked) .card {
+  background-color: #444;
+  color: white;
+}

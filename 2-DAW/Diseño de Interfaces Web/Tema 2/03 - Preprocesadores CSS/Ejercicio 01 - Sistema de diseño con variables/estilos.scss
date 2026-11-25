@@ -1,0 +1,18 @@
+$color-primario: #6b3584;
+$color-secundario: #fff;
+$color-fondo: #eee;
+$fuente-base: Arial, sans-serif;
+
+body {
+  background-color: $color-fondo;
+  font-family: $fuente-base;
+}
+
+h1 {
+  color: $color-primario;
+}
+
+.btn {
+  background-color: $color-primario;
+  color: $color-secundario;
+}

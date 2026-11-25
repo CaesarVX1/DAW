@@ -3,12 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Refactorización a Bootstrap 5</title>
+  <title>Tarjeta de perfil personal</title>
+  <link rel="stylesheet" href="../../../Bootstrap/5.3.3/bootstrap.css">
   <link rel="stylesheet" href="custom-overrides.css">
-  <!-- TODO: incorpora Bootstrap 5 antes de tus estilos propios. -->
-
 </head>
 <body>
-  <!-- TODO: desarrolla aquí el contenido solicitado. -->
+  <header class="container mt-3">
+    <h1>IES MIGUEL HERNÁNDEZ</h1>
+    <nav>
+      <a href="#horarios">Horarios</a>
+      <a href="#informacion">Información</a>
+    </nav>
+  </header>
+  <main class="container mt-3">
+    <article id="horarios" class="card mb-3">
+      <div class="card-body">
+        <h2>Horarios <span class="badge text-bg-secondary">Centro</span></h2>
+        <p>ESO y Bachillerato: 8:30 - 14:30</p>
+        <p>Ciclos Formativos Matutinos: 8:30 - 14:30</p>
+        <p>Ciclos Formativos Vespertinos: 15:00 - 21:00</p>
+      </div>
+    </article>
+    <article id="informacion" class="card mb-3">
+      <div class="card-body">
+        <h2>Información</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ducimus nisi nesciunt dolores harum odit suscipit omnis ipsum.</p>
+        <h3>Programación didáctica</h3>
+        <button type="button" class="btn btn-primary">Consultar programación</button>
+      </div>
+    </article>
+  </main>
 </body>
 </html>

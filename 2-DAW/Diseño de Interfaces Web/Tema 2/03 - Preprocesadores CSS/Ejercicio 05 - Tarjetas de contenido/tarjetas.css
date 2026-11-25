@@ -1,0 +1,47 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tarjeta {
+  box-sizing: border-box;
+  width: 30%;
+}
+.tarjeta img {
+  width: 100px;
+  max-width: 100%;
+}
+.tarjeta button {
+  padding: 5px 10px;
+}
+
+.noticia {
+  background-color: #e3f2fd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto {
+  background-color: #e8f5e9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.articulo {
+  background-color: #fff3e0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 700px) {
+  .tarjeta {
+    width: 100%;
+  }
+}

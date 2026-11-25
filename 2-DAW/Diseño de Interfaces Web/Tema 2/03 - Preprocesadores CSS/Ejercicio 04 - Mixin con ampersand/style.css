@@ -1,0 +1,72 @@
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  box-sizing: border-box;
+  min-width: 190px;
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.blue .btn.primario {
+  background-color: #40566f;
+  color: white;
+  border: 0;
+  border-radius: 40px;
+}
+.blue .btn.secundario {
+  background-color: white;
+  color: #40566f;
+  border: 4px solid #40566f;
+  border-radius: 40px;
+}
+.blue .btn.terciario {
+  background-color: transparent;
+  color: #40566f;
+  border: 0;
+  border-radius: 40px;
+}
+
+.green .btn.primario {
+  background-color: #108653;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+}
+.green .btn.secundario {
+  background-color: white;
+  color: #108653;
+  border: 4px solid #108653;
+  border-radius: 10px;
+}
+.green .btn.terciario {
+  background-color: transparent;
+  color: #108653;
+  border: 0;
+  border-radius: 10px;
+}
+
+.navy .btn.primario {
+  background-color: #0b1933;
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+.navy .btn.secundario {
+  background-color: white;
+  color: #0b1933;
+  border: 4px solid #0b1933;
+  border-radius: 0;
+}
+.navy .btn.terciario {
+  background-color: transparent;
+  color: #0b1933;
+  border: 0;
+  border-radius: 0;
+}

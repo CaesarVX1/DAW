@@ -3,14 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo responsive con conmutador de temas</title>
+  <title>Catálogo responsive</title>
+  <link rel="stylesheet" href="../../../Bootstrap/5.3.3/bootstrap.css">
   <link rel="stylesheet" href="theme-light.css">
-  <!-- TODO: incorpora Bootstrap 5 antes de tus estilos propios. -->
   <link rel="alternate stylesheet" title="Oscuro" href="theme-dark.css">
-
 </head>
 <body>
-  <!-- TODO: desarrolla aquí el contenido solicitado. -->
-  <script src="script.js"></script>
+  <header class="container py-3">
+    <h1>Catálogo de informática</h1>
+    <label><input type="checkbox" id="tema-oscuro"> Tema oscuro</label>
+  </header>
+  <main class="container">
+    <div class="row g-3">
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card p-2">
+          <h2 class="h5">Teclado</h2>
+          <p>29,90 €</p>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card p-2">
+          <h2 class="h5">Ratón</h2>
+          <p>14,90 €</p>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card p-2">
+          <h2 class="h5">Auriculares</h2>
+          <p>24,90 €</p>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card p-2">
+          <h2 class="h5">Soporte</h2>
+          <p>19,90 €</p>
+        </div>
+      </article>
+    </div>
+  </main>
 </body>
 </html>

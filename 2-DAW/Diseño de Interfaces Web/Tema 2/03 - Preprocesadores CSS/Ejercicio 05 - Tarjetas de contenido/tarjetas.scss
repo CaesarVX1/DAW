@@ -1,0 +1,56 @@
+$color-noticia: #e3f2fd;
+$color-producto: #e8f5e9;
+$color-articulo: #fff3e0;
+
+@mixin tarjeta(
+  $fondo: white,
+  $borde: #ddd,
+  $grosor: 1px,
+  $radio: 10px,
+  $espaciado: 15px,
+  $sombra: 0 2px 5px rgba(0, 0, 0, 0.1)
+) {
+  background-color: $fondo;
+  border: $grosor solid $borde;
+  border-radius: $radio;
+  padding: $espaciado;
+  box-shadow: $sombra;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tarjeta {
+  box-sizing: border-box;
+  width: 30%;
+
+  img {
+    width: 100px;
+    max-width: 100%;
+  }
+
+  button {
+    padding: 5px 10px;
+  }
+}
+
+.noticia {
+  @include tarjeta($fondo: $color-noticia);
+}
+
+.producto {
+  @include tarjeta($fondo: $color-producto);
+}
+
+.articulo {
+  @include tarjeta($fondo: $color-articulo);
+}
+
+@media (max-width: 700px) {
+  .tarjeta {
+    width: 100%;
+  }
+}

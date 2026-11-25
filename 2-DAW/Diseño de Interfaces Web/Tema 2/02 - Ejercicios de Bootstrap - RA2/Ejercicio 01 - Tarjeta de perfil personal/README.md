@@ -1,13 +1,11 @@
 # Ejercicio 1. Tarjeta de perfil personal
 
-- [ ] Crea HTML5 semántico con header, main, article y button y texto de Lorem ipsum.
-- [ ] Aplica estilos propios en línea inicialmente, sin Bootstrap.
-- [ ] Refactoriza quitando style, usa div y nav y migra a styles.css.
-- [ ] Crea clases reutilizables (tarjeta-perfil, btn-contacto) con caja, tipografía y sombras.
-- [ ] Valida CSS en W3C y explica la información recibida.
+## Enunciado
 
-## Respuestas y comprobaciones
+- Crea una página con `header`, `main`, `article` y `button`. Usa texto de ejemplo y prueba estilos en línea sin Bootstrap.
+- Quita los estilos en línea y pásalos a `styles.css`. Usa `div`, `nav` y clases reutilizables con estilos de caja, tipografía y sombras.
+- Valida la hoja externa con W3C y explica qué información te ha dado.
 
-### 1. ¿Qué información te ha dado la página de validación CSS?
+## ¿Qué información te ha dado la página de validación CSS?
 
-
+El [validador de W3C](https://jigsaw.w3.org/css-validator/) me ha dado 0 errores y 0 avisos en `styles.css` con el perfil CSS3.
